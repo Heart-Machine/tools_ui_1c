@@ -761,6 +761,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.Удалить_УИ_НавигаторПоМетаданным</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.УИ_РедакторПрототиповФорм.Command.РедакторПрототиповФорм</name>
 		<right>
 			<name>View</name>
