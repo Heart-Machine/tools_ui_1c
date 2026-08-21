@@ -9,7 +9,7 @@
     <key>ru</key>
     <value>Навигатор по метаданным [УИ]</value>
   </synonym>
-  <defaultForm>DataProcessor.УИ_НавигаторПоМетаданным.Form.Форма</defaultForm>
+  <defaultForm>DataProcessor.УИ_НавигаторПоМетаданным.Form.ФормаНовая</defaultForm>
   <help>
     <pages>
       <lang>ru</lang>
@@ -23,6 +23,15 @@
     <key>ru</key>
     <value>Просмотр свойств метаданных конфигурации</value>
   </explanation>
+  <forms uuid="e0d9ab38-fdd2-4b5a-a49b-e11aaadb9193">
+    <name>ФормаНовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма новая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="ceb4300a-a0eb-47ca-93be-bccb3cff667b">
     <name>Форма</name>
     <synonym>
@@ -163,6 +172,13 @@
     <synonym>
       <key>ru</key>
       <value>Макет сервис</value>
+    </synonym>
+  </templates>
+  <templates uuid="79289179-786d-43bc-b524-f4d55724f6ad">
+    <name>УзлыОбъектовМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узлы объектов метаданных</value>
     </synonym>
   </templates>
   <commands uuid="4c2f1c4b-df80-4cd3-9914-bc503a1a0aa0">
