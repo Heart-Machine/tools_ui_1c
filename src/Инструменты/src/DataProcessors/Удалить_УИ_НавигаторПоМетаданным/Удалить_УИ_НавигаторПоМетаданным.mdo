@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="003b419f-6a82-4e46-9408-5d6a416cc809">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac352fac-d3bb-4814-8805-42d0b7bb8656">
   <producedTypes>
-    <objectType typeId="7f700877-e0b8-406a-acea-894d1dc4b0e0" valueTypeId="9f10ce7c-d48d-4adc-8e28-5a0c55299a4a"/>
-    <managerType typeId="d3d700e0-545e-4dca-a788-9d42da276108" valueTypeId="e79c9577-e114-49c7-8cf1-91ced9403efd"/>
+    <objectType typeId="675f48cc-a0cb-40ac-965b-8400c3e69d65" valueTypeId="3ad1821e-715c-471c-bc62-4db0b6719eb6"/>
+    <managerType typeId="31749b61-33c8-4296-8dbb-58bb064ca391" valueTypeId="e397c98d-6345-42cd-83ac-e44b2a7e1206"/>
   </producedTypes>
-  <name>УИ_НавигаторПоМетаданным</name>
+  <name>Удалить_УИ_НавигаторПоМетаданным</name>
   <synonym>
     <key>ru</key>
-    <value>Навигатор по метаданным [УИ]</value>
+    <value>(Не использовать) Навигатор по метаданным [УИ]</value>
   </synonym>
-  <defaultForm>DataProcessor.УИ_НавигаторПоМетаданным.Form.ФормаНовая</defaultForm>
+  <defaultForm>DataProcessor.Удалить_УИ_НавигаторПоМетаданным.Form.Форма</defaultForm>
   <help>
     <pages>
       <lang>ru</lang>
@@ -17,22 +17,13 @@
   </help>
   <extendedPresentation>
     <key>ru</key>
-    <value>Навигатор по метаданным</value>
+    <value>(Не использовать) Навигатор по метаданным</value>
   </extendedPresentation>
   <explanation>
     <key>ru</key>
     <value>Просмотр свойств метаданных конфигурации</value>
   </explanation>
-  <forms uuid="e0d9ab38-fdd2-4b5a-a49b-e11aaadb9193">
-    <name>ФормаНовая</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма новая</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="ceb4300a-a0eb-47ca-93be-bccb3cff667b">
+  <forms uuid="0a448836-ed49-4472-8211-8951b58d1842">
     <name>Форма</name>
     <synonym>
       <key>ru</key>
@@ -41,7 +32,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="4cdcd6b0-9745-4987-b944-76a19997ab72">
+  <forms uuid="ff8dd856-f613-40a4-bae1-154e62c45a55">
     <name>ФормаБлокировкиСеансов</name>
     <synonym>
       <key>ru</key>
@@ -50,7 +41,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="7a3a02af-c88c-4e04-a294-616eb6017dc4">
+  <forms uuid="609badac-6a75-4519-9839-7715496b77e5">
     <name>ФормаВнешнийИсточникДанных</name>
     <synonym>
       <key>ru</key>
@@ -59,7 +50,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="6778164b-3f73-44c8-bf33-c6304aa56baa">
+  <forms uuid="cfe607eb-de70-4838-9dcc-167e0c2a50a0">
     <name>ФормаВыбораМасштабаОтображения</name>
     <synonym>
       <key>ru</key>
@@ -68,7 +59,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="d1d070ac-e6e8-4877-8a6a-7ba76a2d3333">
+  <forms uuid="b632e811-314e-43bd-a444-a8e7f841d44a">
     <name>ФормаВыбораОбъекта</name>
     <synonym>
       <key>ru</key>
@@ -77,7 +68,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="71344901-ba75-4d12-a605-3e030ec7b2ca">
+  <forms uuid="900d22a7-357a-4f63-9e9a-8d025f9c3265">
     <name>ФормаВыбораТипаОбъекта</name>
     <synonym>
       <key>ru</key>
@@ -86,7 +77,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="633d14fc-37e5-4058-8375-d3f1675dab5c">
+  <forms uuid="1a8c0ced-d3fe-49b9-9119-f9d26d0dd271">
     <name>ФормаВыполнитьКод1С</name>
     <synonym>
       <key>ru</key>
@@ -95,7 +86,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="26f2b59f-8824-4a3f-92b4-15c2e7ead77f">
+  <forms uuid="678a2d44-8475-4035-af99-96a4d784cd68">
     <name>ФормаЗапуска1С</name>
     <synonym>
       <key>ru</key>
@@ -104,7 +95,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="83dc9696-d906-4523-a75f-1232993cc3ba">
+  <forms uuid="1aec6cd2-a77c-41fd-b18b-8a0c085e162c">
     <name>ФормаОРазработке</name>
     <synonym>
       <key>ru</key>
@@ -113,7 +104,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="96156465-37b4-4671-8e36-6d9b3ca76204">
+  <forms uuid="535208e8-e930-424e-bb9d-3fee1f3c3c45">
     <name>ФормаОтбораПоПодсистемам</name>
     <synonym>
       <key>ru</key>
@@ -122,7 +113,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="4c3ea110-00de-4faf-b37c-993c2d29afae">
+  <forms uuid="73301fd7-070e-49cc-a5ba-b960012dbc87">
     <name>ФормаОтображенияХЗ</name>
     <synonym>
       <key>ru</key>
@@ -131,7 +122,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="6dfd2e3e-c3b9-4c72-8194-688cff12e17b">
+  <forms uuid="fe4b4a92-c9a5-4289-930a-2e3c5b336fd4">
     <name>ФормаПользовательИБ</name>
     <synonym>
       <key>ru</key>
@@ -140,7 +131,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="c1084219-b9ce-45e7-a68d-856d6335aaea">
+  <forms uuid="39577ae1-2303-466f-ac98-c331e2c0ed92">
     <name>ФормаСвойств</name>
     <synonym>
       <key>ru</key>
@@ -149,7 +140,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="5589fb27-460c-4921-a8a8-80d51cf655a9">
+  <forms uuid="4766ef59-89c9-4871-bc3a-3788cdee6785">
     <name>ФормаСпецТаблицыСХ</name>
     <synonym>
       <key>ru</key>
@@ -158,7 +149,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="11bd03ed-b593-42f6-9dd7-f7f3ab349159">
+  <forms uuid="dcffce9a-f967-4e38-b818-36d7d61ba420">
     <name>ФормаСпискаОбъектов</name>
     <synonym>
       <key>ru</key>
@@ -167,21 +158,14 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="900f95f8-81be-4442-affb-5882998bbc1f">
+  <templates uuid="50500bc0-e9f2-49f8-979d-cde6055ec585">
     <name>МакетСервис</name>
     <synonym>
       <key>ru</key>
       <value>Макет сервис</value>
     </synonym>
   </templates>
-  <templates uuid="79289179-786d-43bc-b524-f4d55724f6ad">
-    <name>УзлыОбъектовМетаданных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Узлы объектов метаданных</value>
-    </synonym>
-  </templates>
-  <commands uuid="4c2f1c4b-df80-4cd3-9914-bc503a1a0aa0">
+  <commands uuid="afd50c53-1686-4253-bb87-705dcfed437f">
     <name>НавигаторПоМетаданным</name>
     <synonym>
       <key>ru</key>
