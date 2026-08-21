@@ -174,13 +174,6 @@
       <value>Макет сервис</value>
     </synonym>
   </templates>
-  <templates uuid="79289179-786d-43bc-b524-f4d55724f6ad">
-    <name>УзлыОбъектовМетаданных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Узлы объектов метаданных</value>
-    </synonym>
-  </templates>
   <commands uuid="4c2f1c4b-df80-4cd3-9914-bc503a1a0aa0">
     <name>НавигаторПоМетаданным</name>
     <synonym>
