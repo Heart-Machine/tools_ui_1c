@@ -18,20 +18,108 @@
           <segments>ДеревоОбъектовМетаданных</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <items xsi:type="form:FormField">
-          <name>ДеревоОбъектовМетаданныхИмя</name>
-          <id>18</id>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоОбъектовМетаданныхГруппаИмени</name>
+          <id>36</id>
+          <items xsi:type="form:FormField">
+            <name>ДеревоОбъектовМетаданныхИмя</name>
+            <id>18</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоОбъектовМетаданных.Имя</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоОбъектовМетаданныхИмяРасширеннаяПодсказка</name>
+              <id>20</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоОбъектовМетаданныхИмяКонтекстноеМеню</name>
+              <id>19</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>EnterOnInput</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДеревоОбъектовМетаданныхКоличествоЭлементов</name>
+            <id>33</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоОбъектовМетаданных.КоличествоЭлементов</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ДеревоОбъектовМетаданныхКоличествоЭлементовРасширеннаяПодсказка</name>
+              <id>35</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДеревоОбъектовМетаданныхКоличествоЭлементовКонтекстноеМеню</name>
+              <id>34</id>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>EnterOnInput</editMode>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <format>
+                <key>ru</key>
+                <value>ЧФ=(Ч)</value>
+              </format>
+              <editFormat>
+                <key>ru</key>
+                <value>ЧФ=(Ч)</value>
+              </editFormat>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоОбъектовМетаданных.Имя</segments>
-          </dataPath>
+          <title>
+            <key>ru</key>
+            <value>Дерево объектов метаданных группа имени</value>
+          </title>
           <extendedTooltip>
-            <name>ДеревоОбъектовМетаданныхИмяРасширеннаяПодсказка</name>
-            <id>20</id>
+            <name>ДеревоОбъектовМетаданныхГруппаИмениРасширеннаяПодсказка</name>
+            <id>37</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -39,23 +127,9 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <contextMenu>
-            <name>ДеревоОбъектовМетаданныхИмяКонтекстноеМеню</name>
-            <id>19</id>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
+          <type>ColumnGroup</type>
+          <extInfo xsi:type="form:ColumnGroupExtInfo">
+            <group>InCell</group>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -224,6 +298,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>BeforeExpand</event>
+          <name>ДеревоОбъектовМетаданныхПередРазворачиванием</name>
+        </handlers>
         <searchStringAddition>
           <name>ДеревоОбъектовМетаданныхСтрокаПоиска</name>
           <id>9</id>
@@ -387,6 +465,10 @@
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -516,6 +598,150 @@
         <stringQualifiers>
           <length>512</length>
         </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяЭлементаСтруктурыКонфигурации</name>
+      <title>
+        <key>ru</key>
+        <value>Имя элемента структуры конфигурации</value>
+      </title>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЗаполнитьКоллекциюМетаданных</name>
+      <title>
+        <key>ru</key>
+        <value>Заполнить коллекцию метаданных</value>
+      </title>
+      <id>19</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КоличествоЭлементов</name>
+      <title>
+        <key>ru</key>
+        <value>Количество элементов</value>
+      </title>
+      <id>20</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>СтруктураКонфигурации</name>
+    <title>
+      <key>ru</key>
+      <value>Структура конфигурации</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Имя</name>
+      <title>
+        <key>ru</key>
+        <value>Имя</value>
+      </title>
+      <id>15</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Представление</name>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
+      <id>16</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПутьКЭлементу</name>
+      <title>
+        <key>ru</key>
+        <value>Путь к элементу</value>
+      </title>
+      <id>17</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЕстьКоллекция</name>
+      <title>
+        <key>ru</key>
+        <value>Есть коллекция</value>
+      </title>
+      <id>18</id>
+      <valueType>
+        <types>Boolean</types>
       </valueType>
       <view>
         <common>true</common>
