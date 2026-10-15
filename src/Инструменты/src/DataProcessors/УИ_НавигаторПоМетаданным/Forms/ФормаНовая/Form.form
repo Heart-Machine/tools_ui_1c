@@ -87,39 +87,6 @@
   <items xsi:type="form:FormGroup">
     <name>ГруппаНастройки</name>
     <id>42</id>
-    <items xsi:type="form:FormField">
-      <name>ИспользоватьФормуСпискаИнструмента</name>
-      <id>44</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИспользоватьФормуСпискаИнструмента</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ИспользоватьФормуСпискаИнструментаРасширеннаяПодсказка</name>
-        <id>46</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИспользоватьФормуСпискаИнструментаКонтекстноеМеню</name>
-        <id>45</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>CheckBoxField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -160,9 +127,55 @@
       <segments>ДеревоОбъектовМетаданных</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <excludedCommands>List</excludedCommands>
+    <excludedCommands>HierarchicalList</excludedCommands>
+    <excludedCommands>Tree</excludedCommands>
     <items xsi:type="form:FormGroup">
       <name>ДеревоОбъектовМетаданныхГруппаИмени</name>
       <id>36</id>
+      <items xsi:type="form:FormField">
+        <name>ДеревоОбъектовМетаданныхКартинка</name>
+        <id>84</id>
+        <title>
+          <key>ru</key>
+          <value>Дерево объектов метаданных картинка</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоОбъектовМетаданных.Картинка</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>ДеревоОбъектовМетаданныхКартинкаРасширеннаяПодсказка</name>
+          <id>86</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДеревоОбъектовМетаданныхКартинкаКонтекстноеМеню</name>
+          <id>85</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>PictureField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:ImageFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+        </extInfo>
+      </items>
       <items xsi:type="form:FormField">
         <name>ДеревоОбъектовМетаданныхИмя</name>
         <id>18</id>
@@ -490,17 +503,71 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
-        <items xsi:type="form:Button">
-          <name>ОткрытьОбъектСписокМетаданных</name>
-          <id>47</id>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоОбъектовМетаданныхГруппаОткрытиеОбъекта</name>
+          <id>93</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьОбъектСписокМетаданных</name>
+            <id>47</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьОбъектСписокМетаданныхРасширеннаяПодсказка</name>
+              <id>48</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОткрытьОбъектСписокМетаданных</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ОткрытьДинамическийСписок</name>
+            <id>95</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьДинамическийСписокРасширеннаяПодсказка</name>
+              <id>96</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОткрытьДинамическийСписок</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Дерево объектов метаданных группа открытие объекта</value>
+          </title>
           <extendedTooltip>
-            <name>ОткрытьОбъектСписокМетаданныхРасширеннаяПодсказка</name>
-            <id>48</id>
+            <name>ДеревоОбъектовМетаданныхГруппаОткрытиеОбъектаРасширеннаяПодсказка</name>
+            <id>94</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -508,12 +575,110 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.ОткрытьОбъектСписокМетаданных</commandName>
+          <extInfo xsi:type="form:ButtonGroupExtInfo">
+            <representation>Compact</representation>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Button">
+          <name>СвернутьДеревоОбъектов</name>
+          <id>82</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СвернутьДеревоОбъектовРасширеннаяПодсказка</name>
+            <id>83</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.СвернутьДеревоОбъектов</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоОбъектовМетаданныхГруппаИзбранные</name>
+          <id>76</id>
+          <items xsi:type="form:Button">
+            <name>ДобавитьВИзбранные</name>
+            <id>68</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДобавитьВИзбранныеРасширеннаяПодсказка</name>
+              <id>69</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ДобавитьВИзбранные</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>УдалитьИзИзбранных</name>
+            <id>70</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>УдалитьИзИзбранныхРасширеннаяПодсказка</name>
+              <id>71</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.УдалитьИзИзбранных</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Дерево объектов метаданных группа избранные</value>
+          </title>
+          <extendedTooltip>
+            <name>ДеревоОбъектовМетаданныхГруппаИзбранныеРасширеннаяПодсказка</name>
+            <id>77</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <extInfo xsi:type="form:ButtonGroupExtInfo">
+            <representation>Compact</representation>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -656,7 +821,234 @@
     <contextMenu>
       <name>ДеревоОбъектовМетаданныхКонтекстноеМеню</name>
       <id>7</id>
-      <autoFill>true</autoFill>
+      <items xsi:type="form:FormGroup">
+        <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаОсновное</name>
+        <id>58</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьСвойстваОбъектаМетаданныхКонтекстноеМеню</name>
+          <id>80</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьСвойстваОбъектаМетаданныхКонтекстноеМенюРасширеннаяПодсказка</name>
+            <id>81</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ОткрытьСвойстваОбъектаМетаданных</commandName>
+          <representation>Auto</representation>
+          <defaultButton>true</defaultButton>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаОткрытиеОбъекта</name>
+          <id>91</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьОбъектСписокМетаданныхКонтекстноеМеню</name>
+            <id>66</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьОбъектСписокМетаданныхКонтекстноеМенюРасширеннаяПодсказка</name>
+              <id>67</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОткрытьОбъектСписокМетаданных</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ОткрытьДинамическийСписокКонтекстноеМеню</name>
+            <id>97</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьДинамическийСписокКонтекстноеМенюРасширеннаяПодсказка</name>
+              <id>98</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОткрытьДинамическийСписок</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Дерево объектов метаданных контекстное меню группа открытие объекта</value>
+          </title>
+          <extendedTooltip>
+            <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаОткрытиеОбъектаРасширеннаяПодсказка</name>
+            <id>92</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <extInfo xsi:type="form:ButtonGroupExtInfo">
+            <representation>Compact</representation>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаИзбранные</name>
+          <id>78</id>
+          <items xsi:type="form:Button">
+            <name>ДобавитьВИзбранныеКонтекстноеМеню</name>
+            <id>72</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДобавитьВИзбранныеКонтекстноеМенюРасширеннаяПодсказка</name>
+              <id>73</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ДобавитьВИзбранные</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>УдалитьИзИзбранныхКонтекстноеМеню</name>
+            <id>74</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>УдалитьИзИзбранныхКонтекстноеМенюРасширеннаяПодсказка</name>
+              <id>75</id>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.УдалитьИзИзбранных</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Дерево объектов метаданных контекстное меню группа избранные</value>
+          </title>
+          <extendedTooltip>
+            <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаИзбранныеРасширеннаяПодсказка</name>
+            <id>79</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <extInfo xsi:type="form:ButtonGroupExtInfo">
+            <representation>Compact</representation>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Дерево объектов метаданных контекстное меню группа основное</value>
+        </title>
+        <extendedTooltip>
+          <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаОсновноеРасширеннаяПодсказка</name>
+          <id>59</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаДругое</name>
+        <id>60</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Дерево объектов метаданных контекстное меню группа другое</value>
+        </title>
+        <extendedTooltip>
+          <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаДругоеРасширеннаяПодсказка</name>
+          <id>61</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <extInfo xsi:type="form:ButtonGroupExtInfo">
+          <commandSource>Item.ДеревоОбъектовМетаданных</commandSource>
+        </extInfo>
+      </items>
     </contextMenu>
     <representation>Tree</representation>
     <readOnly>true</readOnly>
@@ -686,9 +1078,14 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
+    <event>OnLoadDataFromSettingsAtServer</event>
+    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -894,6 +1291,23 @@
       <id>25</id>
       <valueType>
         <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Картинка</name>
+      <title>
+        <key>ru</key>
+        <value>Картинка</value>
+      </title>
+      <id>41</id>
+      <valueType>
+        <types>Picture</types>
       </valueType>
       <view>
         <common>true</common>
@@ -1121,10 +1535,10 @@
       </edit>
     </columns>
     <columns>
-      <name>ТекущаяБазаДанных</name>
+      <name>ЭтоТекущаяБазаДанных</name>
       <title>
         <key>ru</key>
-        <value>Текущая база данных</value>
+        <value>Это текущая база данных</value>
       </title>
       <id>36</id>
       <valueType>
@@ -1154,6 +1568,201 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ИзбранныеОбъектыМетаданных</name>
+    <title>
+      <key>ru</key>
+      <value>Дерево объектов метаданных</value>
+    </title>
+    <id>40</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>ИзбранныеОбъектыМетаданных</segments>
+    </settingsSavedData>
+    <columns>
+      <name>Имя</name>
+      <title>
+        <key>ru</key>
+        <value>Имя</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>256</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Синоним</name>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
+      <id>4</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>512</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПолноеИмя</name>
+      <title>
+        <key>ru</key>
+        <value>Полное имя</value>
+      </title>
+      <id>5</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>512</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяРасширения</name>
+      <title>
+        <key>ru</key>
+        <value>Имя расширения</value>
+      </title>
+      <id>7</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПредставлениеОбъекта</name>
+      <title>
+        <key>ru</key>
+        <value>Представление объекта</value>
+      </title>
+      <id>8</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>512</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяЭлементаСтруктурыКонфигурации</name>
+      <title>
+        <key>ru</key>
+        <value>Имя элемента структуры конфигурации</value>
+      </title>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЗаполнитьКоллекциюМетаданных</name>
+      <title>
+        <key>ru</key>
+        <value>Заполнить коллекцию метаданных</value>
+      </title>
+      <id>19</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КоличествоЭлементов</name>
+      <title>
+        <key>ru</key>
+        <value>Количество элементов</value>
+      </title>
+      <id>20</id>
+      <valueType>
+        <types>String</types>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЭтоВременнаяСтрока</name>
+      <title>
+        <key>ru</key>
+        <value>Это временная строка</value>
+      </title>
+      <id>25</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>ОткрытьОтборКонфигураций</name>
@@ -1190,7 +1799,7 @@
         <name>ОткрытьОбъектСписокМетаданных</name>
       </handler>
     </action>
-    <currentRowUse>Auto</currentRowUse>
+    <associatedTableElementId>5</associatedTableElementId>
   </formCommands>
   <formCommands>
     <name>ОткрытьСвойстваОбъектаМетаданных</name>
@@ -1205,7 +1814,88 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Properties</picture>
     </picture>
-    <currentRowUse>Auto</currentRowUse>
+    <associatedTableElementId>5</associatedTableElementId>
+    <selectedRowsUse>DontUse</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьВИзбранные</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить в избранные</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.AddToFavorites</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьВИзбранные</name>
+      </handler>
+    </action>
+    <associatedTableElementId>5</associatedTableElementId>
+    <selectedRowsUse>DontUse</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>УдалитьИзИзбранных</name>
+    <title>
+      <key>ru</key>
+      <value>Удалить из избранных</value>
+    </title>
+    <id>5</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.MarkToDelete</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалитьИзИзбранных</name>
+      </handler>
+    </action>
+    <associatedTableElementId>5</associatedTableElementId>
+    <selectedRowsUse>DontUse</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>СвернутьДеревоОбъектов</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть дерево объектов</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьДеревоОбъектов</name>
+      </handler>
+    </action>
+    <currentRowUse>DontUse</currentRowUse>
+    <associatedTableElementId>5</associatedTableElementId>
+    <selectedRowsUse>DontUse</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьДинамическийСписок</name>
+    <title>
+      <key>ru</key>
+      <value>Открыть динамический список</value>
+    </title>
+    <id>8</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Form</picture>
+    </picture>
+    <associatedTableElementId>5</associatedTableElementId>
+    <selectedRowsUse>DontUse</selectedRowsUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

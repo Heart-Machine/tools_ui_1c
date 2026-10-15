@@ -579,10 +579,10 @@
       </edit>
     </columns>
     <columns>
-      <name>ТекущаяБазаДанных</name>
+      <name>ЭтоТекущаяБазаДанных</name>
       <title>
         <key>ru</key>
-        <value>Текущая база данных</value>
+        <value>Это текущая база данных</value>
       </title>
       <id>6</id>
       <valueType>
