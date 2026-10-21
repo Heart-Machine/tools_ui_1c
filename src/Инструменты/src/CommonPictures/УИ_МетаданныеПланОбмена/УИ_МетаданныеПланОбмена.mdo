@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cff07dcb-52bd-43f1-a705-ed6fcdb489b4">
+  <name>УИ_МетаданныеПланОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы обмена</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>

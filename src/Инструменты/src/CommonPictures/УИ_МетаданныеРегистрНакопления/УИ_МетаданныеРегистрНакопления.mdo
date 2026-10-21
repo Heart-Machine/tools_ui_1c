@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b74dccb3-5596-4614-b2a2-1afdc839cc1c">
+  <name>УИ_МетаданныеРегистрНакопления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры накопления</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17183e2f-b47a-4152-944f-89cc5cdc5225">
+  <name>УИ_МетаданныеГруппаКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы команд</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>

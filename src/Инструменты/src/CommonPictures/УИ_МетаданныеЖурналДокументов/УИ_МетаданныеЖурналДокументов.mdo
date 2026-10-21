@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10bbdcbe-685c-4679-8bee-2dbc027ca5e8">
+  <name>УИ_МетаданныеЖурналДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журналы документов</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>

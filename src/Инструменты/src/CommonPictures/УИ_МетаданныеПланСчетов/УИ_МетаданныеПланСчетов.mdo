@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2582913-2667-4fdc-b70f-9bf7b045483f">
+  <name>УИ_МетаданныеПланСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы счетов</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>
