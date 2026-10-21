@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bfc82a7-1780-4e65-9624-9081c77ecfc0">
+  <name>УИ_МетаданныеПланВидовХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планы видов характеристик</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>

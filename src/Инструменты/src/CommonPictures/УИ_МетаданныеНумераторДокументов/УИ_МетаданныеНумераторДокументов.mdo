@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61b8c0a8-395a-4e06-9c8d-a9a21727ac6c">
+  <name>УИ_МетаданныеНумераторДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумераторы документов</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>

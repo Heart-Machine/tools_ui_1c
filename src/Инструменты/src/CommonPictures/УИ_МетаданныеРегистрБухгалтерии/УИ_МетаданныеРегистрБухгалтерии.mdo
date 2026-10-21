@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed27bb0e-4eaf-4195-bb4d-1246cfc79699">
+  <name>УИ_МетаданныеРегистрБухгалтерии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистры бухгалтерии</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>
