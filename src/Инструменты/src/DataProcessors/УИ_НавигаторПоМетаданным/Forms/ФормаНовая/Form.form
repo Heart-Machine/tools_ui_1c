@@ -702,6 +702,91 @@
         <extInfo xsi:type="form:ButtonGroupExtInfo"/>
       </items>
       <items xsi:type="form:FormGroup">
+        <name>ДеревоОбъектовМетаданныхГруппаДополнительно</name>
+        <id>99</id>
+        <items xsi:type="form:Button">
+          <name>ОткрытьОтчетКоличествоОбъектовВБазе</name>
+          <id>101</id>
+          <title>
+            <key>ru</key>
+            <value>Количество объектов в базе</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьОтчетКоличествоОбъектовВБазеРасширеннаяПодсказка</name>
+            <id>102</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ОткрытьОтчетКоличествоОбъектовВБазе</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ОткрытьОбработкуСтруктураХраненияБазыДанных</name>
+          <id>103</id>
+          <title>
+            <key>ru</key>
+            <value>Структура хранения базы данных</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОткрытьОбработкуСтруктураХраненияБазыДанныхРасширеннаяПодсказка</name>
+            <id>104</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ОткрытьОбработкуСтруктураХраненияБазыДанных</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Дополнительно</value>
+        </title>
+        <extendedTooltip>
+          <name>ДеревоОбъектовМетаданныхГруппаДополнительноРасширеннаяПодсказка</name>
+          <id>100</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Popup</type>
+        <extInfo xsi:type="form:PopupGroupExtInfo">
+          <representation>Auto</representation>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
         <name>ДеревоОбъектовМетаданныхГруппаДругое</name>
         <id>53</id>
         <visible>true</visible>
@@ -1553,23 +1638,6 @@
     </columns>
   </attributes>
   <attributes>
-    <name>ИспользоватьФормуСпискаИнструмента</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать форму списка инструмента</value>
-    </title>
-    <id>39</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ИзбранныеОбъектыМетаданных</name>
     <title>
       <key>ru</key>
@@ -1788,6 +1856,10 @@
       <value>Открыть объект/список метаданных</value>
     </title>
     <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть объект/список метаданных</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -1808,6 +1880,10 @@
       <value>Свойства объекта метаданных</value>
     </title>
     <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Свойства объекта метаданных</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -1824,6 +1900,10 @@
       <value>Добавить в избранные</value>
     </title>
     <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавить в избранные</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -1845,6 +1925,10 @@
       <value>Удалить из избранных</value>
     </title>
     <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Удалить из избранных</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -1866,6 +1950,10 @@
       <value>Свернуть дерево объектов</value>
     </title>
     <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Свернуть дерево объектов</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -1888,14 +1976,57 @@
       <value>Открыть динамический список</value>
     </title>
     <id>8</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть динамический список</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Form</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьДинамическийСписок</name>
+      </handler>
+    </action>
     <associatedTableElementId>5</associatedTableElementId>
     <selectedRowsUse>DontUse</selectedRowsUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьОтчетКоличествоОбъектовВБазе</name>
+    <title>
+      <key>ru</key>
+      <value>Открыть отчет количество объектов в базе</value>
+    </title>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьОтчетКоличествоОбъектовВБазе</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьОбработкуСтруктураХраненияБазыДанных</name>
+    <title>
+      <key>ru</key>
+      <value>Открыть обработку структура хранения базы данных</value>
+    </title>
+    <id>10</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьОбработкуСтруктураХраненияБазыДанных</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
