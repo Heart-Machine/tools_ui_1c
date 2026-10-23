@@ -406,46 +406,6 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
-    <items xsi:type="form:FormField">
-      <name>ДеревоОбъектовМетаданныхПредставлениеОбъекта</name>
-      <id>30</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ДеревоОбъектовМетаданных.ПредставлениеОбъекта</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ДеревоОбъектовМетаданныхПредставлениеОбъектаРасширеннаяПодсказка</name>
-        <id>32</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ДеревоОбъектовМетаданныхПредставлениеОбъектаКонтекстноеМеню</name>
-        <id>31</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
     <autoCommandBar>
       <name>ДеревоОбъектовМетаданныхКоманднаяПанель</name>
       <id>6</id>
@@ -1279,26 +1239,6 @@
       <valueType>
         <types>String</types>
         <stringQualifiers/>
-      </valueType>
-      <view>
-        <common>true</common>
-      </view>
-      <edit>
-        <common>true</common>
-      </edit>
-    </columns>
-    <columns>
-      <name>ПредставлениеОбъекта</name>
-      <title>
-        <key>ru</key>
-        <value>Представление объекта</value>
-      </title>
-      <id>8</id>
-      <valueType>
-        <types>String</types>
-        <stringQualifiers>
-          <length>512</length>
-        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
