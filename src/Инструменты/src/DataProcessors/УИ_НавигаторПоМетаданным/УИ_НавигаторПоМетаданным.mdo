@@ -176,6 +176,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="7fa424ab-d4ee-4d85-bac5-fe6deba716c3">
+    <name>ФормаОтборПоПодсистемам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор по подсистемам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="900f95f8-81be-4442-affb-5882998bbc1f">
     <name>МакетСервис</name>
     <synonym>
