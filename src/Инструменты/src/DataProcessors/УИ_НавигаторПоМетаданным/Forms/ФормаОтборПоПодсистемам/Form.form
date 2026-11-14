@@ -318,6 +318,7 @@
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
+      <searchStringLocation>Top</searchStringLocation>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКоманды</name>

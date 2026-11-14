@@ -185,6 +185,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="587ac9e4-9d85-4bb9-8b11-c4f749d6512c">
+    <name>ФормаСвойстваОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма свойства объекта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="900f95f8-81be-4442-affb-5882998bbc1f">
     <name>МакетСервис</name>
     <synonym>

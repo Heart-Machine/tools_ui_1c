@@ -2189,6 +2189,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Properties</picture>
     </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьСвойстваОбъектаМетаданных</name>
+      </handler>
+    </action>
     <associatedTableElementId>5</associatedTableElementId>
     <selectedRowsUse>DontUse</selectedRowsUse>
   </formCommands>

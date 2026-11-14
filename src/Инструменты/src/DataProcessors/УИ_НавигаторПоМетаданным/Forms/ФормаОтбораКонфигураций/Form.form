@@ -278,6 +278,7 @@
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
+      <searchStringLocation>Top</searchStringLocation>
     </items>
     <items xsi:type="form:FormGroup">
       <name>ГруппаКоманды</name>
@@ -567,6 +568,24 @@
         <value>Адрес дерева объектов метаданных</value>
       </title>
       <id>5</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>АдресОбъектовМетаданныхПодсистем</name>
+      <title>
+        <key>ru</key>
+        <value>Адрес объектов метаданных подсистем</value>
+      </title>
+      <id>32</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
