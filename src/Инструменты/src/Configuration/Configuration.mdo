@@ -60,13 +60,24 @@
   <commonPictures>CommonPicture.УИ_МетаданныеБизнесПроцесс</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеБот</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеВнешнийИсточникДанных</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеВнешнийИсточникДанныхКуб</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеВнешнийИсточникДанныхКубТаблицаИзмерения</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеВнешнийИсточникДанныхТаблица</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеВнешнийИсточникДанныхФункция</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеГрафа</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеГруппаКоманд</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеДокумент</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеЖурналДокументов</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеЗадача</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеЗначениеПеречисления</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеИзмерение</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеКаналСервисаИнтеграции</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеКоманда</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеКонстанта</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеКонфигурация</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеКритерийОтбора</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеМакет</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеМетод</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеНумераторДокументов</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеОбработка</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеОбщаяКартинка</commonPictures>
@@ -76,11 +87,14 @@
   <commonPictures>CommonPicture.УИ_МетаданныеОбщийМакет</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеОбщийМодуль</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеОбщийРеквизит</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеОперацияWebСервиса</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеОпределяемыйТип</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеОтчет</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПакетXDTO</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеПараметр</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПараметрСеанса</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПараметрФункциональныхОпций</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеПерерасчет</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПеречисление</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПланВидовРасчета</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПланВидовХарактеристик</commonPictures>
@@ -88,19 +102,28 @@
   <commonPictures>CommonPicture.УИ_МетаданныеПланСчетов</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПодпискаНаСобытие</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПодсистема</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеПоле</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеПоследовательность</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеПризнакУчета</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеПризнакУчетаСубконто</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеРегистрБухгалтерии</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеРегистрНакопления</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеРегистрРасчета</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеРегистрСведений</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеРегламентноеЗадание</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеРеквизит</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеРеквизитАдресации</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеРесурс</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеРоль</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеСервисИнтеграции</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеСправочник</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеСтиль</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеТабличнаяЧасть</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеФорма</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеФункциональнаяОпция</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеХранилищеНастроек</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеЦветПалитры</commonPictures>
+  <commonPictures>CommonPicture.УИ_МетаданныеШаблонURL</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеЭлементСтиля</commonPictures>
   <commonPictures>CommonPicture.УИ_МетаданныеЯзык</commonPictures>
   <commonPictures>CommonPicture.УИ_МоментВремени</commonPictures>
@@ -169,6 +192,9 @@
   <commonModules>CommonModule.УИ_МетодыСовмеcтимостиПлатформы_8_3_18Клиент</commonModules>
   <commonModules>CommonModule.УИ_МетодыСовместимостиПлатформы_8_3_21КлиентСервер</commonModules>
   <commonModules>CommonModule.УИ_НавигаторПоМетаданным</commonModules>
+  <commonModules>CommonModule.УИ_НавигаторПоМетаданнымВызовСервера</commonModules>
+  <commonModules>CommonModule.УИ_НавигаторПоМетаданнымКлиент</commonModules>
+  <commonModules>CommonModule.УИ_НавигаторПоМетаданнымКлиентСервер</commonModules>
   <commonModules>CommonModule.УИ_НавигаторПоМетаданнымПовтИсп</commonModules>
   <commonModules>CommonModule.УИ_ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.УИ_ОбщегоНазначенияВызовСервера</commonModules>

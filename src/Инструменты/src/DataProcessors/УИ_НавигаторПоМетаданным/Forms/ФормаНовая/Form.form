@@ -1299,6 +1299,24 @@
       </edit>
     </columns>
     <columns>
+      <name>ИменаРасширений</name>
+      <title>
+        <key>ru</key>
+        <value>Имена расширений</value>
+      </title>
+      <id>59</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
       <name>ИмяЭлементаСтруктурыКонфигурации</name>
       <title>
         <key>ru</key>

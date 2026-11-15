@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf0d0bc8-f204-4d34-827f-df27ae0d785f">
+  <name>УИ_МетаданныеРеквизитАдресации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реквизиты адресации</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>

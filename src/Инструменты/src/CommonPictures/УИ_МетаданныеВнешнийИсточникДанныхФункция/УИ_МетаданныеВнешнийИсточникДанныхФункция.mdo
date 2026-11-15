@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e176428a-95cf-4bfd-86e2-3b73965390ab">
+  <name>УИ_МетаданныеВнешнийИсточникДанныхФункция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции внешних источников</value>
+  </synonym>
+  <comment>Иконки метаданных 1С © Журавлев Анатолий, CC BY 4.0</comment>
+</mdclass:CommonPicture>
