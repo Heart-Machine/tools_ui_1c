@@ -216,6 +216,7 @@
   <commonModules>CommonModule.УИ_РедакторКодаКлиент</commonModules>
   <commonModules>CommonModule.УИ_РедакторКодаКлиентСервер</commonModules>
   <commonModules>CommonModule.УИ_РедакторКодаСервер</commonModules>
+  <commonModules>CommonModule.УИ_РедакторКонстант</commonModules>
   <commonModules>CommonModule.УИ_СтроковыеФункцииКлиентСервер</commonModules>
   <commonModules>CommonModule.УИ_ТипыПлатформыКлиентСервер</commonModules>
   <commonModules>CommonModule.УИ_УправлениеКонфигураторомКлиент</commonModules>

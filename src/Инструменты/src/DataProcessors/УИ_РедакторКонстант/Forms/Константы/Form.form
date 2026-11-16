@@ -634,7 +634,7 @@
       <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
-      <name>ТаблицаКонстантФОпция</name>
+      <name>ТаблицаКонстантФункциональнаяОпция</name>
       <id>124</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -642,10 +642,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Items.ТаблицаКонстант.CurrentData.ФОпция</segments>
+        <segments>Items.ТаблицаКонстант.CurrentData.ФункциональнаяОпция</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаКонстантФОпцияРасширеннаяПодсказка</name>
+        <name>ТаблицаКонстантФункциональнаяОпцияРасширеннаяПодсказка</name>
         <id>126</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -660,7 +660,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТаблицаКонстантФОпцияКонтекстноеМеню</name>
+        <name>ТаблицаКонстантФункциональнаяОпцияКонтекстноеМеню</name>
         <id>125</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -915,10 +915,10 @@
       </edit>
     </columns>
     <columns>
-      <name>ФОпция</name>
+      <name>ФункциональнаяОпция</name>
       <title>
         <key>ru</key>
-        <value>Ф.опция</value>
+        <value>Функциональная опция</value>
       </title>
       <id>5</id>
       <valueType>
@@ -1083,6 +1083,13 @@
   <parameters>
     <name>ПараметрыСеансаОбработки</name>
     <valueType/>
+  </parameters>
+  <parameters>
+    <name>ИмяКонстанты</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>
