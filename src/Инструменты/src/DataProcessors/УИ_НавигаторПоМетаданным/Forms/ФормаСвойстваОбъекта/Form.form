@@ -806,7 +806,7 @@
         <name>СтраницаЗначение</name>
         <id>395</id>
         <items xsi:type="form:Decoration">
-          <name>ЗначениеКонстантыПояснение</name>
+          <name>ЗначениеОбъектаПояснение</name>
           <id>396</id>
           <visible>false</visible>
           <enabled>true</enabled>
@@ -814,7 +814,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ЗначениеКонстантыПояснениеРасширеннаяПодсказка</name>
+            <name>ЗначениеОбъектаПояснениеРасширеннаяПодсказка</name>
             <id>397</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -824,7 +824,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ЗначениеКонстантыПояснениеКонтекстноеМеню</name>
+            <name>ЗначениеОбъектаПояснениеКонтекстноеМеню</name>
             <id>398</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -836,10 +836,10 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>КоманднаяПанельЗначенияКонстанты</name>
+          <name>КоманднаяПанельЗначения</name>
           <id>399</id>
           <items xsi:type="form:Button">
-            <name>ЗаписатьЗначениеКонстанты</name>
+            <name>ЗаписатьЗначениеОбъекта</name>
             <id>400</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -847,7 +847,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ЗаписатьЗначениеКонстантыРасширеннаяПодсказка</name>
+              <name>ЗаписатьЗначениеОбъектаРасширеннаяПодсказка</name>
               <id>401</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -856,7 +856,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ЗаписатьЗначениеКонстанты</commandName>
+            <commandName>Form.Command.ЗаписатьЗначениеОбъекта</commandName>
             <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -864,7 +864,7 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
-            <name>ОбновитьЗначениеКонстанты</name>
+            <name>ОбновитьЗначениеОбъекта</name>
             <id>402</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -872,7 +872,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОбновитьЗначениеКонстантыРасширеннаяПодсказка</name>
+              <name>ОбновитьЗначениеОбъектаРасширеннаяПодсказка</name>
               <id>403</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -881,7 +881,7 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.ОбновитьЗначениеКонстанты</commandName>
+            <commandName>Form.Command.ОбновитьЗначениеОбъекта</commandName>
             <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -920,10 +920,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Командная панель значения константы</value>
+            <value>Командная панель значения</value>
           </title>
           <extendedTooltip>
-            <name>КоманднаяПанельЗначенияКонстантыРасширеннаяПодсказка</name>
+            <name>КоманднаяПанельЗначенияРасширеннаяПодсказка</name>
             <id>406</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -938,7 +938,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ЗначениеКонстанты</name>
+          <name>ЗначениеОбъекта</name>
           <id>407</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -946,14 +946,14 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ЗначениеКонстанты</segments>
+            <segments>ЗначениеОбъекта</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
-            <name>ЗначениеКонстантыПриИзменении</name>
+            <name>ЗначениеОбъектаПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ЗначениеКонстантыРасширеннаяПодсказка</name>
+            <name>ЗначениеОбъектаРасширеннаяПодсказка</name>
             <id>408</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -963,7 +963,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ЗначениеКонстантыКонтекстноеМеню</name>
+            <name>ЗначениеОбъектаКонтекстноеМеню</name>
             <id>409</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -975,11 +975,11 @@
           <extInfo xsi:type="form:InputFieldExtInfo">
             <handlers>
               <event>StartChoice</event>
-              <name>ЗначениеКонстантыНачалоВыбора</name>
+              <name>ЗначениеОбъектаНачалоВыбора</name>
             </handlers>
             <handlers>
               <event>Clearing</event>
-              <name>ЗначениеКонстантыОчистка</name>
+              <name>ЗначениеОбъектаОчистка</name>
             </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -991,13 +991,53 @@
             <textEdit>true</textEdit>
             <typeLink>
               <datapath xsi:type="form:DataPath">
-                <segments>ОписаниеТиповКонстанты</segments>
+                <segments>ОписаниеТиповЗначения</segments>
               </datapath>
             </typeLink>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>ОписаниеТиповКонстанты</name>
+          <name>ПредставлениеЗначения</name>
+          <id>603</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПредставлениеЗначения</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ПредставлениеЗначенияРасширеннаяПодсказка</name>
+            <id>604</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПредставлениеЗначенияКонтекстноеМеню</name>
+            <id>605</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <height>10</height>
+            <wrap>true</wrap>
+            <multiLine>true</multiLine>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ОписаниеТиповЗначения</name>
           <id>410</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1005,10 +1045,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>ОписаниеТиповКонстанты</segments>
+            <segments>ОписаниеТиповЗначения</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОписаниеТиповКонстантыРасширеннаяПодсказка</name>
+            <name>ОписаниеТиповЗначенияРасширеннаяПодсказка</name>
             <id>411</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1018,7 +1058,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ОписаниеТиповКонстантыКонтекстноеМеню</name>
+            <name>ОписаниеТиповЗначенияКонтекстноеМеню</name>
             <id>412</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -6381,6 +6421,10 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
   <autoTitle>false</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -8129,7 +8173,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЗначениеКонстанты</name>
+    <name>ЗначениеОбъекта</name>
     <title>
       <key>ru</key>
       <value>Значение</value>
@@ -8144,7 +8188,25 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ОписаниеТиповКонстанты</name>
+    <name>ПредставлениеЗначения</name>
+    <title>
+      <key>ru</key>
+      <value>Значение</value>
+    </title>
+    <id>135</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОписаниеТиповЗначения</name>
     <title>
       <key>ru</key>
       <value>Тип</value>
@@ -8179,10 +8241,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЗначениеКонстантыЗаполнено</name>
+    <name>ЗначениеОбъектаЗаполнено</name>
     <title>
       <key>ru</key>
-      <value>Значение константы заполнено</value>
+      <value>Значение заполнено</value>
     </title>
     <id>103</id>
     <valueType>
@@ -8196,10 +8258,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЗначениеКонстантыИзменено</name>
+    <name>ЗначениеОбъектаИзменено</name>
     <title>
       <key>ru</key>
-      <value>Значение константы изменено</value>
+      <value>Значение изменено</value>
     </title>
     <id>104</id>
     <valueType>
@@ -8213,10 +8275,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЕстьПравоИзмененияКонстанты</name>
+    <name>ЕстьПравоИзмененияЗначения</name>
     <title>
       <key>ru</key>
-      <value>Есть право изменения константы</value>
+      <value>Есть право изменения значения</value>
     </title>
     <id>105</id>
     <valueType>
@@ -8911,7 +8973,7 @@
     </action>
   </formCommands>
   <formCommands>
-    <name>ЗаписатьЗначениеКонстанты</name>
+    <name>ЗаписатьЗначениеОбъекта</name>
     <title>
       <key>ru</key>
       <value>Записать</value>
@@ -8919,7 +8981,7 @@
     <id>9</id>
     <toolTip>
       <key>ru</key>
-      <value>Записать значение константы</value>
+      <value>Записать значение константы или установить значение параметра сеанса</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -8929,12 +8991,12 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ЗаписатьЗначениеКонстанты</name>
+        <name>ЗаписатьЗначениеОбъекта</name>
       </handler>
     </action>
   </formCommands>
   <formCommands>
-    <name>ОбновитьЗначениеКонстанты</name>
+    <name>ОбновитьЗначениеОбъекта</name>
     <title>
       <key>ru</key>
       <value>Обновить</value>
@@ -8942,7 +9004,7 @@
     <id>10</id>
     <toolTip>
       <key>ru</key>
-      <value>Перечитать значение константы из базы. Незаписанное изменение будет потеряно</value>
+      <value>Перечитать значение. Незаписанное изменение будет потеряно</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -8952,7 +9014,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ОбновитьЗначениеКонстанты</name>
+        <name>ОбновитьЗначениеОбъекта</name>
       </handler>
     </action>
   </formCommands>

@@ -2436,6 +2436,7 @@
     <use>
       <common>true</common>
     </use>
+    <shortcut>Ctrl+Enter</shortcut>
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Properties</picture>
     </picture>
