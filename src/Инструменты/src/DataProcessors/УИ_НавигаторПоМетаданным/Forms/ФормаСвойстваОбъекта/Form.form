@@ -5626,6 +5626,31 @@
         <representation>Compact</representation>
       </extInfo>
     </items>
+    <items xsi:type="form:Button">
+      <name>ОбновитьНумерацию</name>
+      <id>509</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ОбновитьНумерациюРасширеннаяПодсказка</name>
+        <id>510</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОбновитьНумерацию</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
@@ -8208,6 +8233,26 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>РазорватьСоединениеСИсточником</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>ОбновитьНумерацию</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить нумерацию...</value>
+    </title>
+    <id>16</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить нумерацию текущего объекта состава, а у конфигурации - всех объектов. Нужно, например, после загрузки данных, если новые номера или коды повторяют загруженные</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьНумерацию</name>
       </handler>
     </action>
   </formCommands>
