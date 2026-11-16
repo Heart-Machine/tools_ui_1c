@@ -587,10 +587,85 @@
               <textEdit>true</textEdit>
             </extInfo>
           </items>
-          <commandBarLocation>None</commandBarLocation>
           <autoCommandBar>
             <name>СвойстваКоманднаяПанель</name>
             <id>32</id>
+            <items xsi:type="form:FormGroup">
+              <name>СвойстваГруппаДерево</name>
+              <id>595</id>
+              <items xsi:type="form:Button">
+                <name>РазвернутьСвойства</name>
+                <id>570</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>РазвернутьСвойстваРасширеннаяПодсказка</name>
+                  <id>571</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.РазвернутьСвойства</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СвернутьСвойства</name>
+                <id>572</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СвернутьСвойстваРасширеннаяПодсказка</name>
+                  <id>573</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.СвернутьСвойства</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа дерево Свойства</value>
+              </title>
+              <extendedTooltip>
+                <name>СвойстваГруппаДеревоРасширеннаяПодсказка</name>
+                <id>596</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <extInfo xsi:type="form:ButtonGroupExtInfo">
+                <representation>Compact</representation>
+              </extInfo>
+            </items>
             <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
@@ -2423,10 +2498,85 @@
               <textEdit>true</textEdit>
             </extInfo>
           </items>
-          <commandBarLocation>None</commandBarLocation>
           <autoCommandBar>
             <name>ОбратныеСвязиКоманднаяПанель</name>
             <id>58</id>
+            <items xsi:type="form:FormGroup">
+              <name>ОбратныеСвязиГруппаДерево</name>
+              <id>597</id>
+              <items xsi:type="form:Button">
+                <name>РазвернутьОбратныеСвязи</name>
+                <id>574</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>РазвернутьОбратныеСвязиРасширеннаяПодсказка</name>
+                  <id>575</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.РазвернутьОбратныеСвязи</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СвернутьОбратныеСвязи</name>
+                <id>576</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СвернутьОбратныеСвязиРасширеннаяПодсказка</name>
+                  <id>577</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.СвернутьОбратныеСвязи</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа дерево ОбратныеСвязи</value>
+              </title>
+              <extendedTooltip>
+                <name>ОбратныеСвязиГруппаДеревоРасширеннаяПодсказка</name>
+                <id>598</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <extInfo xsi:type="form:ButtonGroupExtInfo">
+                <representation>Compact</representation>
+              </extInfo>
+            </items>
             <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
@@ -3586,10 +3736,85 @@
               <textEdit>true</textEdit>
             </extInfo>
           </items>
-          <commandBarLocation>None</commandBarLocation>
           <autoCommandBar>
             <name>ДанныеБазыКоманднаяПанель</name>
             <id>140</id>
+            <items xsi:type="form:FormGroup">
+              <name>ДанныеБазыГруппаДерево</name>
+              <id>599</id>
+              <items xsi:type="form:Button">
+                <name>РазвернутьДанныеБазы</name>
+                <id>578</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>РазвернутьДанныеБазыРасширеннаяПодсказка</name>
+                  <id>579</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.РазвернутьДанныеБазы</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СвернутьДанныеБазы</name>
+                <id>580</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СвернутьДанныеБазыРасширеннаяПодсказка</name>
+                  <id>581</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.СвернутьДанныеБазы</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа дерево ДанныеБазы</value>
+              </title>
+              <extendedTooltip>
+                <name>ДанныеБазыГруппаДеревоРасширеннаяПодсказка</name>
+                <id>600</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <extInfo xsi:type="form:ButtonGroupExtInfo">
+                <representation>Compact</representation>
+              </extInfo>
+            </items>
             <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
@@ -5643,10 +5868,85 @@
               <textEdit>true</textEdit>
             </extInfo>
           </items>
-          <commandBarLocation>None</commandBarLocation>
           <autoCommandBar>
             <name>РасширенияОбъектаКоманднаяПанель</name>
             <id>246</id>
+            <items xsi:type="form:FormGroup">
+              <name>РасширенияОбъектаГруппаДерево</name>
+              <id>601</id>
+              <items xsi:type="form:Button">
+                <name>РазвернутьРасширенияОбъекта</name>
+                <id>582</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>РазвернутьРасширенияОбъектаРасширеннаяПодсказка</name>
+                  <id>583</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.РазвернутьРасширенияОбъекта</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СвернутьРасширенияОбъекта</name>
+                <id>584</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СвернутьРасширенияОбъектаРасширеннаяПодсказка</name>
+                  <id>585</id>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.СвернутьРасширенияОбъекта</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Группа дерево РасширенияОбъекта</value>
+              </title>
+              <extendedTooltip>
+                <name>РасширенияОбъектаГруппаДеревоРасширеннаяПодсказка</name>
+                <id>602</id>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <extInfo xsi:type="form:ButtonGroupExtInfo">
+                <representation>Compact</representation>
+              </extInfo>
+            </items>
             <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
@@ -5844,6 +6144,82 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:FormGroup">
+      <name>ГруппаДеревоСостава</name>
+      <id>560</id>
+      <items xsi:type="form:Button">
+        <name>РазвернутьСостав</name>
+        <id>561</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>РазвернутьСоставРасширеннаяПодсказка</name>
+          <id>562</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.РазвернутьСостав</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СвернутьСостав</name>
+        <id>563</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СвернутьСоставРасширеннаяПодсказка</name>
+          <id>564</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.СвернутьСостав</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа дерево состава</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаДеревоСоставаРасширеннаяПодсказка</name>
+        <id>565</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo">
+        <representation>Compact</representation>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>ГруппаОткрытиеОбъекта</name>
       <id>162</id>
       <items xsi:type="form:Button">
@@ -5915,6 +6291,31 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПоказатьКартуМаршрута</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ОткрытьРедакторОбъектов</name>
+        <id>590</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ОткрытьРедакторОбъектовРасширеннаяПодсказка</name>
+          <id>591</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ОткрытьРедакторОбъектов</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -8658,6 +9059,259 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>РазорватьСоединениеСИсточником</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>РазвернутьСостав</name>
+    <title>
+      <key>ru</key>
+      <value>Развернуть все</value>
+    </title>
+    <id>17</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Развернуть все группы состава</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExpandAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РазвернутьСостав</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>СвернутьСостав</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть все</value>
+    </title>
+    <id>18</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Свернуть все группы состава</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьСостав</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>РазвернутьСвойства</name>
+    <title>
+      <key>ru</key>
+      <value>Развернуть все</value>
+    </title>
+    <id>19</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Развернуть все группы свойств</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExpandAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РазвернутьСвойства</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>СвернутьСвойства</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть все</value>
+    </title>
+    <id>20</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Свернуть все группы свойств</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьСвойства</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>РазвернутьОбратныеСвязи</name>
+    <title>
+      <key>ru</key>
+      <value>Развернуть все</value>
+    </title>
+    <id>21</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Развернуть все группы списка «Используется в»</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExpandAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РазвернутьОбратныеСвязи</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>СвернутьОбратныеСвязи</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть все</value>
+    </title>
+    <id>22</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Свернуть все группы списка «Используется в»</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьОбратныеСвязи</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>РазвернутьДанныеБазы</name>
+    <title>
+      <key>ru</key>
+      <value>Развернуть все</value>
+    </title>
+    <id>23</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Развернуть все группы данных базы</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExpandAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РазвернутьДанныеБазы</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>СвернутьДанныеБазы</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть все</value>
+    </title>
+    <id>24</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Свернуть все группы данных базы</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьДанныеБазы</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>РазвернутьРасширенияОбъекта</name>
+    <title>
+      <key>ru</key>
+      <value>Развернуть все</value>
+    </title>
+    <id>25</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Развернуть все группы списка расширений</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ExpandAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РазвернутьРасширенияОбъекта</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>СвернутьРасширенияОбъекта</name>
+    <title>
+      <key>ru</key>
+      <value>Свернуть все</value>
+    </title>
+    <id>26</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Свернуть все группы списка расширений</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CollapseAll</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СвернутьРасширенияОбъекта</name>
+      </handler>
+    </action>
+  </formCommands>
+  <formCommands>
+    <name>ОткрытьРедакторОбъектов</name>
+    <title>
+      <key>ru</key>
+      <value>Редактор объектов</value>
+    </title>
+    <id>27</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть редактор объектов базы данных с типом текущего объекта состава</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.УИ_РедакторОбъектовБазыДанных</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьРедакторОбъектов</name>
       </handler>
     </action>
   </formCommands>
