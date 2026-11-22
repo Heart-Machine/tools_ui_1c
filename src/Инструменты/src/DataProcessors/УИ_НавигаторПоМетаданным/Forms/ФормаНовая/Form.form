@@ -1021,6 +1021,10 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
+      <event>Selection</event>
+      <name>ДеревоОбъектовМетаданныхВыбор</name>
+    </handlers>
+    <handlers>
       <event>OnActivateRow</event>
       <name>ДеревоОбъектовМетаданныхПриАктивизацииСтроки</name>
     </handlers>
