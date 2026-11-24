@@ -192,9 +192,7 @@
             </extInfo>
           </extendedTooltip>
           <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>Horizontal</group>
-          </extInfo>
+          <extInfo xsi:type="form:ColumnGroupExtInfo"/>
         </items>
         <items xsi:type="form:FormGroup">
           <name>СоставГруппаЗаимствованРасширением</name>
@@ -262,9 +260,7 @@
             </extInfo>
           </extendedTooltip>
           <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>Horizontal</group>
-          </extInfo>
+          <extInfo xsi:type="form:ColumnGroupExtInfo"/>
         </items>
         <items xsi:type="form:FormGroup">
           <name>СоставГруппаИзмененРасширением</name>
@@ -332,9 +328,7 @@
             </extInfo>
           </extendedTooltip>
           <type>ColumnGroup</type>
-          <extInfo xsi:type="form:ColumnGroupExtInfo">
-            <group>Horizontal</group>
-          </extInfo>
+          <extInfo xsi:type="form:ColumnGroupExtInfo"/>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -366,7 +360,6 @@
       <autoCommandBar>
         <name>СоставКоманднаяПанель</name>
         <id>11</id>
-        <autoFill>false</autoFill>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
       <handlers>
@@ -469,7 +462,6 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <autoMaxRowsCount>true</autoMaxRowsCount>
-      <selectionMode>SingleRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -487,6 +479,36 @@
       <items xsi:type="form:FormGroup">
         <name>СтраницаСвойства</name>
         <id>24</id>
+        <items xsi:type="form:Decoration">
+          <name>СвойстваТекущийЭлемент</name>
+          <id>606</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>СвойстваТекущийЭлементРасширеннаяПодсказка</name>
+            <id>608</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СвойстваТекущийЭлементКонтекстноеМеню</name>
+            <id>607</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
         <items xsi:type="form:Table">
           <name>Свойства</name>
           <id>25</id>
@@ -666,7 +688,6 @@
                 <representation>Compact</representation>
               </extInfo>
             </items>
-            <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
@@ -764,7 +785,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
-          <selectionMode>SingleRow</selectionMode>
           <header>true</header>
           <headerHeight>1</headerHeight>
           <footerHeight>1</footerHeight>
@@ -774,6 +794,7 @@
           <verticalLines>true</verticalLines>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
+          <initialTreeView>ExpandAllLevels</initialTreeView>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
         </items>
@@ -808,7 +829,6 @@
         <items xsi:type="form:Decoration">
           <name>ЗначениеОбъектаПояснение</name>
           <id>396</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -1427,7 +1447,6 @@
           <autoCommandBar>
             <name>ЭлементыСоставаКоманднаяПанель</name>
             <id>116</id>
-            <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
@@ -1524,7 +1543,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
-          <selectionMode>SingleRow</selectionMode>
           <header>true</header>
           <headerHeight>1</headerHeight>
           <footerHeight>1</footerHeight>
@@ -1568,7 +1586,6 @@
         <items xsi:type="form:Decoration">
           <name>ПраваРолиПояснение</name>
           <id>165</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -1695,7 +1712,6 @@
             <autoCommandBar>
               <name>ВидыПравРолиКоманднаяПанель</name>
               <id>176</id>
-              <autoFill>false</autoFill>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
             <handlers>
@@ -1793,7 +1809,6 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
-            <selectionMode>SingleRow</selectionMode>
             <headerHeight>1</headerHeight>
             <footerHeight>1</footerHeight>
             <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -1968,9 +1983,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <type>ColumnGroup</type>
-                <extInfo xsi:type="form:ColumnGroupExtInfo">
-                  <group>Horizontal</group>
-                </extInfo>
+                <extInfo xsi:type="form:ColumnGroupExtInfo"/>
               </items>
               <items xsi:type="form:FormGroup">
                 <name>ПраваРолиГруппаЗаимствованРасширением</name>
@@ -2038,9 +2051,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <type>ColumnGroup</type>
-                <extInfo xsi:type="form:ColumnGroupExtInfo">
-                  <group>Horizontal</group>
-                </extInfo>
+                <extInfo xsi:type="form:ColumnGroupExtInfo"/>
               </items>
               <items xsi:type="form:FormGroup">
                 <name>ПраваРолиГруппаИзмененРасширением</name>
@@ -2108,9 +2119,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <type>ColumnGroup</type>
-                <extInfo xsi:type="form:ColumnGroupExtInfo">
-                  <group>Horizontal</group>
-                </extInfo>
+                <extInfo xsi:type="form:ColumnGroupExtInfo"/>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2200,15 +2209,12 @@
                 </extInfo>
               </extendedTooltip>
               <type>ColumnGroup</type>
-              <extInfo xsi:type="form:ColumnGroupExtInfo">
-                <group>Horizontal</group>
-              </extInfo>
+              <extInfo xsi:type="form:ColumnGroupExtInfo"/>
             </items>
             <commandBarLocation>None</commandBarLocation>
             <autoCommandBar>
               <name>ПраваРолиКоманднаяПанель</name>
               <id>200</id>
-              <autoFill>false</autoFill>
               <horizontalAlign>Left</horizontalAlign>
             </autoCommandBar>
             <handlers>
@@ -2305,7 +2311,6 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <autoMaxRowsCount>true</autoMaxRowsCount>
-            <selectionMode>SingleRow</selectionMode>
             <header>true</header>
             <headerHeight>4</headerHeight>
             <footerHeight>1</footerHeight>
@@ -2374,6 +2379,36 @@
       <items xsi:type="form:FormGroup">
         <name>СтраницаОбратныеСвязи</name>
         <id>45</id>
+        <items xsi:type="form:Decoration">
+          <name>ОбратныеСвязиТекущийЭлемент</name>
+          <id>609</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОбратныеСвязиТекущийЭлементРасширеннаяПодсказка</name>
+            <id>611</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОбратныеСвязиТекущийЭлементКонтекстноеМеню</name>
+            <id>610</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
         <items xsi:type="form:Table">
           <name>ОбратныеСвязи</name>
           <id>46</id>
@@ -2617,7 +2652,6 @@
                 <representation>Compact</representation>
               </extInfo>
             </items>
-            <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
@@ -2715,7 +2749,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
-          <selectionMode>SingleRow</selectionMode>
           <header>true</header>
           <headerHeight>1</headerHeight>
           <footerHeight>1</footerHeight>
@@ -2725,6 +2758,7 @@
           <verticalLines>true</verticalLines>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
+          <initialTreeView>ExpandAllLevels</initialTreeView>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
         </items>
@@ -2757,9 +2791,38 @@
         <name>СтраницаРоли</name>
         <id>73</id>
         <items xsi:type="form:Decoration">
+          <name>ПраваРолейТекущийЭлемент</name>
+          <id>612</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПраваРолейТекущийЭлементРасширеннаяПодсказка</name>
+            <id>614</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПраваРолейТекущийЭлементКонтекстноеМеню</name>
+            <id>613</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
           <name>ПраваРолейПояснение</name>
           <id>74</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -2950,9 +3013,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>ColumnGroup</type>
-              <extInfo xsi:type="form:ColumnGroupExtInfo">
-                <group>Horizontal</group>
-              </extInfo>
+              <extInfo xsi:type="form:ColumnGroupExtInfo"/>
             </items>
             <items xsi:type="form:FormGroup">
               <name>ПраваРолейГруппаЗаимствованРасширением</name>
@@ -3020,9 +3081,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>ColumnGroup</type>
-              <extInfo xsi:type="form:ColumnGroupExtInfo">
-                <group>Horizontal</group>
-              </extInfo>
+              <extInfo xsi:type="form:ColumnGroupExtInfo"/>
             </items>
             <items xsi:type="form:FormGroup">
               <name>ПраваРолейГруппаИзмененРасширением</name>
@@ -3090,9 +3149,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>ColumnGroup</type>
-              <extInfo xsi:type="form:ColumnGroupExtInfo">
-                <group>Horizontal</group>
-              </extInfo>
+              <extInfo xsi:type="form:ColumnGroupExtInfo"/>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3182,15 +3239,12 @@
               </extInfo>
             </extendedTooltip>
             <type>ColumnGroup</type>
-            <extInfo xsi:type="form:ColumnGroupExtInfo">
-              <group>Horizontal</group>
-            </extInfo>
+            <extInfo xsi:type="form:ColumnGroupExtInfo"/>
           </items>
           <commandBarLocation>None</commandBarLocation>
           <autoCommandBar>
             <name>ПраваРолейКоманднаяПанель</name>
             <id>84</id>
-            <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
@@ -3287,7 +3341,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
-          <selectionMode>SingleRow</selectionMode>
           <header>true</header>
           <headerHeight>4</headerHeight>
           <footerHeight>1</footerHeight>
@@ -3329,9 +3382,38 @@
         <name>СтраницаПользователи</name>
         <id>520</id>
         <items xsi:type="form:Decoration">
+          <name>ПраваПользователейТекущийЭлемент</name>
+          <id>615</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПраваПользователейТекущийЭлементРасширеннаяПодсказка</name>
+            <id>617</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПраваПользователейТекущийЭлементКонтекстноеМеню</name>
+            <id>616</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
           <name>ПраваПользователейПояснение</name>
           <id>521</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -3508,7 +3590,6 @@
           <autoCommandBar>
             <name>ПраваПользователейКоманднаяПанель</name>
             <id>534</id>
-            <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
@@ -3605,7 +3686,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
-          <selectionMode>SingleRow</selectionMode>
           <header>true</header>
           <headerHeight>4</headerHeight>
           <footerHeight>1</footerHeight>
@@ -3647,9 +3727,38 @@
         <name>СтраницаДанныеБазы</name>
         <id>129</id>
         <items xsi:type="form:Decoration">
+          <name>ДанныеБазыТекущийЭлемент</name>
+          <id>618</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ДанныеБазыТекущийЭлементРасширеннаяПодсказка</name>
+            <id>620</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДанныеБазыТекущийЭлементКонтекстноеМеню</name>
+            <id>619</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
           <name>ДанныеБазыПояснение</name>
           <id>130</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -3855,7 +3964,6 @@
                 <representation>Compact</representation>
               </extInfo>
             </items>
-            <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
@@ -3953,7 +4061,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
-          <selectionMode>SingleRow</selectionMode>
           <header>true</header>
           <headerHeight>1</headerHeight>
           <footerHeight>1</footerHeight>
@@ -3963,6 +4070,7 @@
           <verticalLines>true</verticalLines>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
+          <initialTreeView>ExpandAllLevels</initialTreeView>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
         </items>
@@ -3997,7 +4105,6 @@
         <items xsi:type="form:Decoration">
           <name>УправлениеИтогамиПояснение</name>
           <id>349</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -4625,7 +4732,6 @@
         <items xsi:type="form:Decoration">
           <name>ПодключениеПояснение</name>
           <id>431</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -5715,9 +5821,38 @@
         <name>СтраницаРасширения</name>
         <id>230</id>
         <items xsi:type="form:Decoration">
+          <name>РасширенияОбъектаТекущийЭлемент</name>
+          <id>621</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>РасширенияОбъектаТекущийЭлементРасширеннаяПодсказка</name>
+            <id>623</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>РасширенияОбъектаТекущийЭлементКонтекстноеМеню</name>
+            <id>622</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
           <name>РасширенияОбъектаПояснение</name>
           <id>231</id>
-          <visible>false</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -5987,7 +6122,6 @@
                 <representation>Compact</representation>
               </extInfo>
             </items>
-            <autoFill>false</autoFill>
             <horizontalAlign>Left</horizontalAlign>
           </autoCommandBar>
           <handlers>
@@ -6085,7 +6219,6 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <autoMaxRowsCount>true</autoMaxRowsCount>
-          <selectionMode>SingleRow</selectionMode>
           <header>true</header>
           <headerHeight>1</headerHeight>
           <footerHeight>1</footerHeight>
@@ -6095,6 +6228,7 @@
           <verticalLines>true</verticalLines>
           <searchOnInput>Auto</searchOnInput>
           <initialListView>Auto</initialListView>
+          <initialTreeView>ExpandAllLevels</initialTreeView>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
         </items>
@@ -6425,7 +6559,6 @@
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
   </handlers>
-  <autoTitle>false</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
